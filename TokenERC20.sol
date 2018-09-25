@@ -1,7 +1,9 @@
 pragma solidity ^0.4.16;
 
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) external; }
-
+/* 
+Já que os tokens tem características comuns, é interessante padronizar. Daí o ERC20
+*/
 contract TokenERC20 {
     // Variáveis públicas do Token
     string public name;

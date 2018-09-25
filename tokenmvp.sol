@@ -1,5 +1,9 @@
 pragma solidity ^0.4.20;
-
+/*
+MVP = Mínimo Produto Viável 
+Nós vamos criar um digital token. 
+Token podem ser ativos como moedas, pontos de fidelidade, certificados de ouro, recebíveis,itens de jogos, etc.
+*/
 contract TokenMVP {
     /* Aqui é um array com todos os saldos */
     mapping (address => uint256) public balanceOf;
